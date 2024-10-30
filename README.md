@@ -121,3 +121,11 @@ This document outlines the key directories and files commonly found in a Node.js
 ## Conclusion
 
 Understanding the directory structure and key files of a Node.js project, particularly with Next.js, helps maintain clarity and organization in development. Each directory and file serves a specific purpose, contributing to the overall functionality and manageability of the application.
+
+---
+
+You can reach me @ ridlock@gmail.com
+
+or add me up on LinkedIn: www.linkedin.com/in/ken-ong9090
+
+or on Discord: user: ridlock6090
