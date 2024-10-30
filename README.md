@@ -78,19 +78,19 @@ This document outlines the key directories and files commonly found in a Node.js
   - Example: 
     - `styles/globals.css` may contain global styling rules.
 
-### 4. **.next**
+### 4. **.next** - (file part of .gitignore)
 - **Purpose**: Stores the build output of the Next.js application.
 - **Details**: 
   - This directory is automatically generated during the build process.
   - It includes server-rendered pages and optimized assets for production deployment.
 
-### 5. **out**
+### 5. **out** - (file part of .gitignore)
 - **Purpose**: Contains static files generated for static hosting.
 - **Details**: 
   - Created when running `next export` to prepare the application for static deployment.
   - This directory is used for deploying the app to static hosting services.
 
-### 6. **node_modules**
+### 6. **node_modules** (file part of .gitignore)
 - **Purpose**: Contains all installed npm packages and their dependencies.
 - **Details**: 
   - This directory is created based on the `package.json` file.
