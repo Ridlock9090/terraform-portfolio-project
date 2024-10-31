@@ -1,13 +1,10 @@
 # S3 Globally Unit Bucket
 resource "aws_s3_bucket" "nextjs_bucket" {
   bucket = "ridly-terraformnextjs"
-  
-  tags = {
-    Name    = "staticbucket"
-  }
 }
 
 # Ownership Control
+
 resource "aws_s3_bucket_ownership_controls" "nextjs_bucket_ownership_controls" {
   bucket = aws_s3_bucket.nextjs_bucket.id
   rule {
@@ -112,8 +109,6 @@ resource "aws_cloudfront_distribution" "nextjs_distribution" {
 }
 }
 
-  
-
 resource "aws_s3_bucket_website_configuration" "example" {
   bucket = aws_s3_bucket.nextjs_bucket.id
 
@@ -124,7 +119,5 @@ resource "aws_s3_bucket_website_configuration" "example" {
   error_document {
     key = "error_document.html"
   }
-     
-    
-  
+      
   }
