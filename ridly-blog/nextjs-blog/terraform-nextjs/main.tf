@@ -27,7 +27,7 @@ resource "aws_s3_bucket_ownership_controls" "nextjs_bucket_ownership_controls" {
 }
 
 # Block Public Access
-resource "aws_s3_bucket_public_access_block" "nextj_bucket_public_access_block" {
+resource "aws_s3_bucket_public_access_block" "nextjs_bucket_public_access_block" {
   bucket = aws_s3_bucket.nextjs_bucket.id
 
   block_public_acls = false
