@@ -43,7 +43,7 @@ resource "aws_s3_bucket_acl" "nextjs_bucket_acl" {
 
   depends_on = [ 
     aws_s3_bucket_ownership_controls.nextjs_bucket_ownership_controls,
-    aws_s3_bucket_public_access_block.nextj_bucket_public_access_block
+    aws_s3_bucket_public_access_block.nextjs_bucket_public_access_block
      ]
   bucket = aws_s3_bucket.nextjs_bucket.id
   acl = "public-read"
